@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTest" >
+
+	<!-- Test -->
+	<test name="SmokeTest">
+		<classes>
+			<class name="testRun.SmokeTest">
+				<methods>
+					<include name="logIn" />
+					<include name="logOut" />
+					<include name="registrationTest" />
+					<include name="regLogOut" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
